@@ -2,6 +2,7 @@
 
 ## Links
 
+- [Online CITE App](http://folio.furman.edu/cite.html)
 - [SBT Build Tool](http://www.scala-sbt.org)
 
 ## Overview
