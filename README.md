@@ -14,7 +14,7 @@
 ## Image Citation Tool 2
 
 - [The Image Citation Tool (2)](http://www.homermultitext.org/ict2/)
-- [Links to Manuscript Images](2017a_image_collections.html)
+- [Links to Manuscript Images](2017a_image_collections.md)
 
 ## CITE-App
 
@@ -28,4 +28,4 @@
 
 - Install SBT
 - In a terminal, navigate to the `Scala/` directory
-- [Scala Exercises](Scala.html)
+- [Scala Exercises](Scala.md)
