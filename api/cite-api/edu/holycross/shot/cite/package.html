@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>cite - edu.holycross.shot.cite</title>
+          <meta name="description" content="cite - edu.holycross.shot.cite" />
+          <meta name="keywords" content="cite edu.holycross.shot.cite" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'edu.holycross.shot.cite.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../package.html" class="extype" name="edu">edu</a>.<a href="../../package.html" class="extype" name="edu.holycross">holycross</a>.<a href="../package.html" class="extype" name="edu.holycross.shot">shot</a></p>
+        <h1>cite</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">cite</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Library for working with canonical identifers
+used in citing scholarly resources.</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="edu.holycross.shot.cite"><span>cite</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="edu.holycross.shot.cite.Citable" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="CitableextendsAnyRef"></a>
+      <a id="Citable:Citable"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Citable.html"><span class="name">Citable</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Trait for any citable scholarly resource.</p>
+    </li><li name="edu.holycross.shot.cite.Cite2Urn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Cite2UrnextendsUrnwithProductwithSerializable"></a>
+      <a id="Cite2Urn:Cite2Urn"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Cite2Urn.html"><span class="name">Cite2Urn</span></a><span class="params">(<span name="urnString">urnString: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <a href="Urn.html" class="extype" name="edu.holycross.shot.cite.Urn">Urn</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A URN for a citable object in a collection.</p>
+    </li><li name="edu.holycross.shot.cite.CiteException" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CiteExceptionextendsExceptionwithProductwithSerializable"></a>
+      <a id="CiteException:CiteException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CiteException.html"><span class="name">CiteException</span></a><span class="params">(<span name="message">message: <span class="extype" name="scala.Predef.String">String</span> = <span class="symbol">&quot;&quot;</span></span>, <span name="cause">cause: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Throwable">Throwable</span>] = <span class="symbol">scala.None</span></span>)</span><span class="result"> extends <span class="extype" name="scala.Exception">Exception</span> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="edu.holycross.shot.cite.CiteExport" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CiteExportextendsAnyRef"></a>
+      <a id="CiteExport:CiteExport"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="CiteExport.html"><span class="name">CiteExport</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="edu.holycross.shot.cite.CtsUrn" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CtsUrnextendsUrnwithProductwithSerializable"></a>
+      <a id="CtsUrn:CtsUrn"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="CtsUrn.html"><span class="name">CtsUrn</span></a><span class="params">(<span name="urnString">urnString: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result"> extends <a href="Urn.html" class="extype" name="edu.holycross.shot.cite.Urn">Urn</a> with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">A URN for a canonically citable text or passage of text.</p>
+    </li><li name="edu.holycross.shot.cite.Urn" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="UrnextendsAnyRef"></a>
+      <a id="Urn:Urn"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Urn.html"><span class="name">Urn</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">The superclass of Urn objects, implemented by CtsUrn and CiteUrn.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="edu.holycross.shot.cite.Main" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Main"></a>
+      <a id="Main:Main"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Main$.html"><span class="name">Main</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="edu.holycross.shot.cite.WorkLevel" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="WorkLevel"></a>
+      <a id="WorkLevel:WorkLevel"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="WorkLevel$.html"><span class="name">WorkLevel</span></a><span class="result"> extends <span class="extype" name="scala.Enumeration">Enumeration</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Enumeration of levels of the CTS work hierarchy.</p>
+    </li><li name="edu.holycross.shot.cite.package#subrefIndexOption" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="subrefIndexOption(subref:String):Option[Int]"></a>
+      <a id="subrefIndexOption(String):Option[Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">subrefIndexOption</span><span class="params">(<span name="subref">subref: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Extracts the explicitly given index of a subref
+from a passage node value, or the default value of 1.</p><div class="fullcomment"><div class="comment cmt"><p>Extracts the explicitly given index of a subref
+from a passage node value, or the default value of 1.</p><p>The index value must be an integer.</p></div></div>
+    </li><li name="edu.holycross.shot.cite.package#subrefIndexRE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="subrefIndexRE:scala.util.matching.Regex"></a>
+      <a id="subrefIndexRE:Regex"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">subrefIndexRE</span><span class="result">: <span class="extype" name="scala.util.matching.Regex">Regex</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Regular expression matching the index part of a subreference on a CTS URN passage node.</p>
+    </li><li name="edu.holycross.shot.cite.package#subrefOption" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="subrefOption(s:String):Option[String]"></a>
+      <a id="subrefOption(String):Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">subrefOption</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Extracts the subref from a passage node value.</p><div class="fullcomment"><div class="comment cmt"><p>Extracts the subref from a passage node value.
+</p></div><dl class="paramcmts block"><dt class="param">s</dt><dd class="cmt"><p>A passage node value, a reference to
+a single node or to the beginning or ending node
+of a range reference.
+</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.cite.package#subrefTextOption" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="subrefTextOption(s:String):Option[String]"></a>
+      <a id="subrefTextOption(String):Option[String]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">subrefTextOption</span><span class="params">(<span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Extracts the cited text of a subref from a passage node value.</p><div class="fullcomment"><div class="comment cmt"><p>Extracts the cited text of a subref from a passage node value.
+</p></div><dl class="paramcmts block"><dt class="param">s</dt><dd class="cmt"><p>A passage node value, a reference to
+a single node or to the beginning or ending node
+of a range reference.
+</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.cite.package#subrefTextRE" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="subrefTextRE:scala.util.matching.Regex"></a>
+      <a id="subrefTextRE:Regex"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">subrefTextRE</span><span class="result">: <span class="extype" name="scala.util.matching.Regex">Regex</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Regular expression matching text part of a subreference on a CTS URN passage node.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../lib/template.js"></script>
+    </body>
+      </html>
